@@ -41,7 +41,7 @@ def execute_Myfile(conn, dataframe, table):
     """
     # Create a list of tuples from the dataframe values
     tuples = [tuple(x) for x in dataframe.to_numpy()]
-    print(tuples,"Hellllllllllllllll")
+    print(tuples,"This is the output of tuples")
     # Comma-separated dataframe columns
     cols = ','.join(list(dataframe.columns))
     print("Its Meeeeeeeeeeee",cols)
