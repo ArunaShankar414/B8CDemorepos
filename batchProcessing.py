@@ -44,7 +44,7 @@ def execute_Myfile(conn, dataframe, table):
     print(tuples,"This is the output of tuples")
     # Comma-separated dataframe columns
     cols = ','.join(list(dataframe.columns))
-    print("Its Meeeeeeeeeeee",cols)
+    print("Its Meeeeeeeeeeee Aruna",cols)
     # SQL quert to execute
     query  = "INSERT INTO %s(%s) VALUES (%%s,%%s,%%s)" % (table, cols)
     print(query)
